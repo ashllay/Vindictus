@@ -52,9 +52,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
-    <Reference Include="Interop.mscoree">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\Interop.mscoree.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +96,9 @@
       <Project>{9b72c18e-20a4-4a3e-bcb6-f2eeef062b5f}</Project>
       <Name>Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

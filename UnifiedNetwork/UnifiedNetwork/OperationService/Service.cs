@@ -281,7 +281,7 @@ namespace UnifiedNetwork.OperationService
 			{
 				System.Threading.Thread.CurrentThread.Name = this.Category;
 			}));
-			VEH.Install();
+			//VEH.Install();
 			this.Thread.ExceptionFilter += this.Thread_ExceptionFilter;
 			this.Thread.ExceptionOccur += this.Thread_ExceptionOccur;
 			this.acceptor = new Acceptor((default(T) == null) ? Activator.CreateInstance<T>() : default(T), thread);
@@ -309,7 +309,7 @@ namespace UnifiedNetwork.OperationService
 
 		private void Thread_ExceptionFilter(object sender, EventArgs<Exception> e)
 		{
-			WER.Report(this.Category, e.Value, new object[0]);
+			//WER.Report(this.Category, e.Value, new object[0]);
 		}
 
 		private void Thread_ExceptionOccur(object sender, EventArgs<Exception> e)

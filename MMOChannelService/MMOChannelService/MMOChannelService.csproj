@@ -53,25 +53,27 @@
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Data" />
     <Reference Include="UnifiedNetwork">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\UnifiedNetwork.dll</HintPath>
+      <HintPath>..\..\UnifiedNetwork\UnifiedNetwork\bin\x64\Debug\UnifiedNetwork.dll</HintPath>
     </Reference>
     <Reference Include="HeroesChannelServer">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\HeroesChannelServer.dll</HintPath>
+      <HintPath>..\..\HeroesChannelServer\HeroesChannelServer\bin\x64\Debug\HeroesChannelServer.dll</HintPath>
     </Reference>
     <Reference Include="ServiceCore">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\ServiceCore.dll</HintPath>
+      <HintPath>..\..\ServiceCore\ServiceCore\bin\x64\Debug\ServiceCore.dll</HintPath>
     </Reference>
     <Reference Include="MMOServer">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\MMOServer.dll</HintPath>
+      <HintPath>..\..\MMOServer\MMOServer\bin\x64\Debug\MMOServer.dll</HintPath>
     </Reference>
     <Reference Include="Core">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\Core.dll</HintPath>
+      <HintPath>..\..\Core\Core\bin\x64\Debug\Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="Utility">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\Utility.dll</HintPath>
+      <HintPath>..\..\Utility\Utility\bin\x64\Debug\Utility.dll</HintPath>
     </Reference>
-    <Reference Include="log4net" />
+    <Reference Include="log4net">
+      <HintPath>..\..\log4net\log4net\bin\x64\Debug\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>

@@ -50,22 +50,10 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ServiceCore">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\ServiceCore.dll</HintPath>
-    </Reference>
-    <Reference Include="UnifiedNetwork">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\UnifiedNetwork.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="Core">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\Core.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
-    <Reference Include="Utility">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\Utility.dll</HintPath>
-    </Reference>
     <Reference Include="System.Management" />
   </ItemGroup>
   <ItemGroup>
@@ -133,9 +121,25 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core\Core.csproj">
+      <Project>{ef967304-f220-4581-b149-1d46a3fe2527}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\log4net\log4net\log4net.csproj">
       <Project>{181fe707-e161-4722-9f38-6aaab6faa106}</Project>
       <Name>log4net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ServiceCore\ServiceCore\ServiceCore.csproj">
+      <Project>{667dc6e4-810d-4c64-81a4-7bc5d1a2e42c}</Project>
+      <Name>ServiceCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UnifiedNetwork\UnifiedNetwork\UnifiedNetwork.csproj">
+      <Project>{52947f5c-8304-4348-9055-f366489f208b}</Project>
+      <Name>UnifiedNetwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utility\Utility\Utility.csproj">
+      <Project>{9b72c18e-20a4-4a3e-bcb6-f2eeef062b5f}</Project>
+      <Name>Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

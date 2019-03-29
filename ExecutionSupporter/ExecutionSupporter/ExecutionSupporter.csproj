@@ -59,9 +59,6 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System" />
-    <Reference Include="AdminClientServiceCore">
-      <HintPath>..\..\..\..\en-eu-x-gm\Bin\AdminClientServiceCore.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceProcess" />
@@ -137,6 +134,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AdminClientServiceCore\AdminClientServiceCore\AdminClientServiceCore.csproj">
+      <Project>{4ee653ce-1569-417e-9edb-29b43f26c4f6}</Project>
+      <Name>AdminClientServiceCore</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Core\Core\Core.csproj">
       <Project>{ef967304-f220-4581-b149-1d46a3fe2527}</Project>
       <Name>Core</Name>

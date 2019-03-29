@@ -56,7 +56,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="log4net" />
+    <Reference Include="log4net">
+      <HintPath>..\..\log4net\log4net\bin\x64\Debug\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
