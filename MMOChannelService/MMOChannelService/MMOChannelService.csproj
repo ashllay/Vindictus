@@ -56,7 +56,7 @@
       <HintPath>..\..\UnifiedNetwork\UnifiedNetwork\bin\x64\Debug\UnifiedNetwork.dll</HintPath>
     </Reference>
     <Reference Include="HeroesChannelServer">
-      <HintPath>..\..\HeroesChannelServer\HeroesChannelServer\bin\x64\Debug\HeroesChannelServer.dll</HintPath>
+      <HintPath>..\..\HeroesChannelServer\HeroesChannelServer\obj\x64\Debug\HeroesChannelServer.dll</HintPath>
     </Reference>
     <Reference Include="ServiceCore">
       <HintPath>..\..\ServiceCore\ServiceCore\bin\x64\Debug\ServiceCore.dll</HintPath>
