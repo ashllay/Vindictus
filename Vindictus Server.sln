@@ -16,6 +16,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCCommon", "RCCommon\RCComm
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCClientService", "RCClientService\RCClientService\RCClientService.csproj", "{C9A72B8F-DB00-490E-89AF-70F75480BF5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF967304-F220-4581-B149-1D46A3FE2527} = {EF967304-F220-4581-B149-1D46A3FE2527}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCServerService", "RCServerService\RCServerService\RCServerService.csproj", "{98448011-2045-495B-8C8E-B8FD8C1D3F1E}"
 EndProject
